@@ -28,17 +28,17 @@ import kotlin.concurrent.thread
 
 object CrossSine {
     // Client information
-    const val CLIENT_NAME = "CrossSine"
+    const val CLIENT_NAME = "GrossSine"
     const val CLIENT_CLOUD = "https://crosssine.github.io/cloud"
     var USER_NAME = ""
     var CUSTOM_DOMAIN = ".customdomain [domain]"
-    private var CLIENT_STATUS = false
-    const val COLORED_NAME = "§CC§FrossSine"
-    const val CLIENT_CREATOR = "Shape"
-    const val CLIENT_VERSION = "40"
+    private var CLIENT_STATUS = true
+    const val COLORED_NAME = "§CG§FrossSine"
+    const val CLIENT_CREATOR = "bzym2"
+    const val CLIENT_VERSION = "1"
     var destruced = false
 
-    const val CLIENT_LOADING = "Initialzing Minecraft"
+    const val CLIENT_LOADING = "Initialzing Mod"
 
     @JvmField
     val CLIENT_TITLE = "$CLIENT_NAME B$CLIENT_VERSION" + if (CLIENT_STATUS) " (Beta)" else ""

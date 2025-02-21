@@ -1,6 +1,5 @@
 package net.ccbluex.liquidbounce.features.module.modules.other.disablers.server
 
-import com.sun.javaws.progress.Progress
 import net.ccbluex.liquidbounce.event.*
 import net.ccbluex.liquidbounce.features.module.ModuleManager
 import net.ccbluex.liquidbounce.features.module.modules.other.disablers.DisablerMode
