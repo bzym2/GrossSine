@@ -555,7 +555,7 @@ public abstract class MixinMinecraft {
     private void setWindowIcon(CallbackInfo callbackInfo) {
         try {
             if (Util.getOSType() != Util.EnumOS.OSX) {
-                BufferedImage image = ImageIO.read(this.getClass().getResourceAsStream("/assets/minecraft/crosssine/misc/icon.png"));
+                BufferedImage image = ImageIO.read(this.getClass().getResourceAsStream("/assets/minecraft/grosssine/misc/icon.png"));
                 ByteBuffer bytebuffer = ImageUtils.readImageToBuffer(ImageUtils.resizeImage(image, 16, 16));
                 if (bytebuffer == null) {
                     throw new Exception("Error when loading image.");

@@ -49,7 +49,7 @@ class AuthBypass : Module() {
         val map = HashMap<String, String>()
 
         val localeJson = JsonParser().parse(
-            AuthBypass::class.java.classLoader.getResourceAsStream("assets/minecraft/crosssine/misc/item_names_in_pt_BR.json")!!
+            AuthBypass::class.java.classLoader.getResourceAsStream("assets/minecraft/grosssine/misc/item_names_in_pt_BR.json")!!
                 .reader(Charsets.UTF_8)).asJsonObject
 
         brLangMap.clear()

@@ -218,7 +218,7 @@ public class Fonts {
 
     private static void initFonts() {
         try {
-            initSingleFont("Urbanist-Light.ttf", "assets/minecraft/crosssine/font/Urbanist-Light.ttf");
+            initSingleFont("Urbanist-Light.ttf", "assets/minecraft/grosssine/font/Urbanist-Light.ttf");
         } catch (IOException e) {
             e.printStackTrace();
         }

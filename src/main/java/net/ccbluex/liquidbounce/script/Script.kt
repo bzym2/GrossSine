@@ -121,7 +121,7 @@ class Script(private val scriptFile: File) : MinecraftInstance() {
         if (!scriptText.lines().first().contains("api_version=2")) {
             ClientUtils.logWarn("[CrossSineAPI] Running script '${scriptFile.name}' with legacy support.")
             val legacyScript =
-                CrossSine::class.java.getResource("/assets/minecraft/crosssine/scriptapi/legacy.js")?.readText()
+                CrossSine::class.java.getResource("/assets/minecraft/grosssine/scriptapi/legacy.js")?.readText()
             scriptEngine.eval(legacyScript)
         }
     }

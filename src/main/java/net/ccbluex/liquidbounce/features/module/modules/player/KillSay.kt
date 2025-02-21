@@ -50,7 +50,7 @@ object KillSay : Module() {
         try {
             // check file exists
             if (!insultFile.exists()) {
-                FileUtils.unpackFile(insultFile, "assets/minecraft/crosssine/misc/insult.json")
+                FileUtils.unpackFile(insultFile, "assets/minecraft/grosssine/misc/insult.json")
             }
             // read it
             val json = JsonParser().parse(insultFile.readText(Charsets.UTF_8))
